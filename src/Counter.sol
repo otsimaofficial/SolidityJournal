@@ -12,6 +12,7 @@ contract Counter {
         number++;
     }
 }
+
 contract ClassroomSetup {
     // ==========================================
     // 1. CUSTOM TYPES FIRST (Like basic building blocks)
@@ -215,6 +216,7 @@ contract ClassroomSetup {
 
     // More functions would go here...
 }
+
 contract ContractSections {
     // ==== SECTION 1: DECLARATIONS (Like the school's blueprint) ====
     // This is where you declare what the contract will "remember" and "know"
@@ -605,7 +607,7 @@ contract OfficeBuilding {
         // ✅ Internal functions
         _updateEmployeeRecords(msg.sender);
 
-        // ✅ Private functions
+        //         ✅ Private functions
         _topSecretOperation();
 
         // ❌ Cannot call external functions directly!
